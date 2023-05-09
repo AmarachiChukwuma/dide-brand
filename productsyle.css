@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-padding-top: 1rem;
+    font-family: poppins, sans-serif;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+}
+
+.main-background{
+    background: url(shirt3.png);
+    background-size: contain;
+    /*background-position: center;*/
+    background-color: #db2929;
+    margin-top: 0;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+/*.left-back{
+    flex: 1 1 45rem;
+    
+}*/
+
+
+.right-content h1{
+    font-size: 70px;
+    letter-spacing: 3px;
+    color: white;
+}
+.right-content p{
+    font-size: 1rem;
+    color: white;
+}
+.right-content .btn{
+    display: block;
+    padding: 1rem 2rem;
+    background-color: white;
+    width: 40%;
+    color: black;
+    border-radius: 12px;
+}
+.right-content .btn:hover{
+    transform: scale(1.2) translateY(10px);
+    transition: .4s;
+}
+.vell-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.vell-container .box{
+    flex: 1 1 10rem;
+    position: relative;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #f6f6f6;
+    border-radius: -2rem;
+}
+.vell-container .box img{
+    width: 100%;
+    height: 280px;
+    object-fit: contain;object-position: center;
+    margin-bottom: 1rem;
+}
+.vell .heading{
+    text-align: center;
+    margin-bottom: 5rem;
+}
+.vell .heading span{
+   
+    border-bottom: 2px solid ;
+    padding-bottom: .3rem;
+    margin-top: .5rem;
+    color: var(--black-color);
+   
+}
+.box h3{
+    text-align: center;
+}
+.box span{
+    text-align: center;
+}
