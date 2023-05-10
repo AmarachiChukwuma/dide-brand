@@ -97,8 +97,12 @@
 .box span{
     text-align: center;
 }
+
+.whatsapp{
+    display: flex;
+
 .whatsapp .btn{
-    display: block;
+    display: flex;
     padding: 1rem 2rem;
     background-color: white;
     width: 40%;
