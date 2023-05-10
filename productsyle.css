@@ -98,21 +98,3 @@
     text-align: center;
 }
 
-.whatsapp{
-    display: flex;
-
-.whatsapp .btn{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem 2rem;
-    background-color: white;
-    width: 40%;
-    color: black;
-    border-radius: 12px;
-}
-.whatsapp .btn:hover{
-    transform: scale(1.2) translateY(10px);
-    transition: .4s;
-}
-
